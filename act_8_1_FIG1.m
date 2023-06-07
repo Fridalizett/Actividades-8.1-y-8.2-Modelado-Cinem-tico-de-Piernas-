@@ -15,7 +15,7 @@ H4 = SE3(roty(0), [1,0,0]);
 H20 = H1 * H2;
 H30 = H20 * H3;
 H40 = H30 * H4;
-print(H40)
+disp(H40)
 
 
 plot3(0, 0, 0,'LineWidth', 1.5); axis([-2 6 -2 6 -2 6]); grid on;
